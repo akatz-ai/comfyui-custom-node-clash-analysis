@@ -1,0 +1,26 @@
+Total node packs analysed: 2459
+Node packs with ≥1 strict pin: 243 (9.9%)
+Node packs with invalid requirements: 4 (0.2%)
+
+Total conflicts across all packages (naive): 7229
+Total precise conflicts across all packages: 5389
+Total possible pairs across all packages: 29403
+Percentage of pairs in conflict (naive): 24.59%
+Percentage of pairs in conflict (precise): 18.33%
+
+Top 15 conflict-generating packages:
+  numpy                packs=75   specs=22 naive_conflicts=2444   precise_conflicts=990
+  transformers         packs=42   specs=28 naive_conflicts=840    precise_conflicts=671
+  diffusers            packs=41   specs=22 naive_conflicts=786    precise_conflicts=664
+  pillow               packs=31   specs=14 naive_conflicts=427    precise_conflicts=411
+  accelerate           packs=23   specs=12 naive_conflicts=235    precise_conflicts=235
+  opencv-python        packs=22   specs=7  naive_conflicts=203    precise_conflicts=203
+  torch                packs=21   specs=13 naive_conflicts=200    precise_conflicts=178
+  einops               packs=18   specs=4  naive_conflicts=113    precise_conflicts=113
+  scipy                packs=14   specs=9  naive_conflicts=85     precise_conflicts=85
+  imageio              packs=13   specs=9  naive_conflicts=74     precise_conflicts=74
+  huggingface-hub      packs=12   specs=11 naive_conflicts=65     precise_conflicts=65
+  timm                 packs=13   specs=7  naive_conflicts=62     precise_conflicts=62
+  torchvision          packs=12   specs=7  naive_conflicts=60     precise_conflicts=60
+  tqdm                 packs=12   specs=6  naive_conflicts=56     precise_conflicts=56
+  gradio               packs=12   specs=8  naive_conflicts=62     precise_conflicts=52

@@ -1,0 +1,16 @@
+[project]
+name = "clash_utils"
+version = "0.1.0"
+description = "Analyse custom nodes for conflicts"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "matplotlib>=3.10.1",
+    "packaging>=24.2",
+    "pandas>=2.2.3",
+    "pip>=25.0.1",
+    "plotly>=6.0.1",
+    "requests>=2.32.3",
+    "tqdm>=4.67.1",
+]
